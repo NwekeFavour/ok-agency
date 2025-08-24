@@ -46,7 +46,7 @@ function Footer(props) {
                         <div className="grid grid-cols-2 md:grid-cols-4 md:gap-1 gap-8 sm:gap-6 sm:grid-cols-3 lg:mt-18 mt-16 xl:mt-0 md:mt-20">
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold uppercase  text-white opacity-[55%]">Company</h2>
-                                <ul className="text-white">
+                                <ul className="text-white space-y-3">
                                     <li className="">
                                         <a href="#" className="hover:underline">About Us</a>
                                     </li>
@@ -63,7 +63,7 @@ function Footer(props) {
                             </div>
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold uppercase  text-white opacity-[55%]">Product</h2>
-                                <ul className="text-white">
+                                <ul className="text-white space-y-3">
                                     <li className="">
                                         <a href="#" className="hover:underline ">Features</a>
                                     </li>
@@ -83,7 +83,7 @@ function Footer(props) {
                             </div>
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold uppercase  text-white opacity-[55%]">Services</h2>
-                                <ul className="text-white">
+                                <ul className="text-white space-y-3">
                                     <li className="">
                                         <a href="#" className="hover:underline">Digital Marketing</a>
                                     </li>
@@ -97,7 +97,7 @@ function Footer(props) {
                             </div>
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold uppercase  text-white opacity-[55%]">Legal</h2>
-                                <ul className="text-white">
+                                <ul className="text-white  space-y-2 md:space-y-3">
                                     <li className="">
                                         <a href="#" className="hover:underline">Privacy Policy</a>
                                     </li>
