@@ -160,7 +160,7 @@ function Home(props) {
                                 <p className="m-0 lg:text-[21px] md:text-[18px] sm:text-[17px] text-[16px] font-bold mb-4">Easy feedback sharing</p>
                                 <p className="m-0 md:text-[17px] sm:text-[16px] text-[15px] text-[#161C2D] opacity-30">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                             </div>
-                        </div>
+                        </div>  
                         <div className='flex  gap-4 items-start sm:items-center lg:my-0 mb-16'>
                             <div className='bg-[#161C2D]/25 sm:px-5 sm:py-5 px-3 py-3 rounded-[10px] '>
                                 <img src={ICT} alt="ICT-img" />
