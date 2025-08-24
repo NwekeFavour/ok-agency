@@ -8,12 +8,12 @@ import Oval from "../assets/images/Oval.svg"
 import Rating from '../components/rating';
 import Man from "../assets/images/1.svg"
 import GirlImg from "../assets/images/girlimg.svg"
-import GirlImgTwo from "../assets/images/girlimg2.svg"
+import GirlImgTwo from "../assets/images/girlimgtwo.svg"
 import Corporate from "../assets/images/business.svg"
 import IC from "../assets/images/ic.svg"
 import ICT from "../assets/images/ic_timelapse.svg"
 import Pass from "../assets/images/pass.svg"
-import GroupTwo from "../assets/images/group2.svg"
+import GroupTwo from "../assets/images/grouptwo.svg"
 import { useCardStore } from '../store/cardStore';
 import OvalTwo from "../assets/images/Oval (1).svg"
 import Footer from '../components/footer';
