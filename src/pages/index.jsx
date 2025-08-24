@@ -12,7 +12,7 @@ import GirlImgTwo from "../assets/images/girlimg2.svg"
 import Corporate from "../assets/images/business.svg"
 import IC from "../assets/images/ic.svg"
 import ICT from "../assets/images/ic_timelapse.svg"
-import Pass from "../assets/images/path.svg"
+import Pass from "../assets/images/pass.svg"
 import GroupTwo from "../assets/images/group2.svg"
 import { useCardStore } from '../store/cardStore';
 import OvalTwo from "../assets/images/Oval (1).svg"
