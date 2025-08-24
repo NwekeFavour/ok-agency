@@ -1,0 +1,54 @@
+body{
+  font-family: "Poppins", sans-serif;
+}
+.heroS{
+  background-image: url("../src//assets/images/BG.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.title{
+  font-family: "Gilda Display", serif !important;
+
+}
+.bart{
+  height: 635px;
+  background-image: url("./assets/images/group3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1280px) {
+  .image{
+    width: 400px;
+  }
+  .MuiContainer-maxWidthLg {
+    width: 100% !important;
+    max-width: fit-content !important;
+  }
+
+  .shift{
+    width: 800px;
+  }
+  .ii{
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .mark{
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .mark{
+    width: 270px;
+  }
+  .people{
+    font-size: 16px;
+    width: 300px;
+  }
+}
