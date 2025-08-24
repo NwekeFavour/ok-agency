@@ -5,7 +5,6 @@ import { Box, Button } from '@mui/material';
 import MarketingSection from '../components/marketingCard';
 import Group from "../assets/images/Group.svg"
 import Oval from "../assets/images/Oval.svg"
-import { useRatingStore } from '../store/ratingStore';
 import Rating from '../components/rating';
 import Man from "../assets/images/1.svg"
 import GirlImg from "../assets/images/girlimg.svg"
@@ -13,7 +12,7 @@ import GirlImgTwo from "../assets/images/girlimg2.svg"
 import Corporate from "../assets/images/business.svg"
 import IC from "../assets/images/ic.svg"
 import ICT from "../assets/images/ic_timelapse.svg"
-import Path from "../assets/images/path.svg"
+import Pass from "../assets/images/path.svg"
 import GroupTwo from "../assets/images/group2.svg"
 import { useCardStore } from '../store/cardStore';
 import OvalTwo from "../assets/images/Oval (1).svg"
@@ -42,7 +41,7 @@ function Home(props) {
                         </Box>
                     </div>
                     <div className='flex justify-center items-center'>
-                        <img className="lg:w-[463px] image md:w-[400px] sm:w-[350px] w-[300px] lg:h-[504px]" src={Woman} alt="" />
+                        <img className="lg:w-[463px] image md:w-[400px] sm:w-[350px] w-[300px] lg:h-[504px]" src={Woman} alt="Woman-Image" />
                     </div>
                 </div>
             </div>
@@ -54,7 +53,7 @@ function Home(props) {
                     </div>
                     <MarketingSection/>
                     <div className="absolute right-0 bottom-[-30px] z-[-1] hidden lg:block">
-                        <img src={Group} alt="" />
+                        <img src={Group} alt="Group-img" />
                     </div>
                 </div>
                 <div>
@@ -137,7 +136,7 @@ function Home(props) {
                     <div className="grid grid-cols-1 lg:grid-cols-2  md:grid-cols-1 gap-10  z-1 md:mx-18 mx-6 lg:mx-20 justify-center border-b border-[#D8D8D8] lg:py-28">
                         <div className='flex  gap-4 items-start sm:items-center lg:my-0 mt-9'>
                             <div className='bg-[#979797]/40 sm:px-5 sm:py-5 px-3 py-3 rounded-[10px]  sm:rounded-[20px] '>
-                                <img src={Corporate} alt="" />
+                                <img src={Corporate} alt="Corporate-img" />
                             </div>
                             <div>
                                 <p className="m-0 lg:text-[21px] md:text-[18px] sm:text-[17px] text-[16px] font-bold mb-4">Dedicated project manager</p>
@@ -146,7 +145,7 @@ function Home(props) {
                         </div>
                         <div className='flex  gap-4 items-start sm:items-center lg:my-0 my-3'>
                             <div className='bg-[#F64B4B]/25 sm:px-5 sm:py-5 px-3 py-3 rounded-[10px]  sm:rounded-[20px] '>
-                                <img src={IC} alt="" />
+                                <img src={IC} alt="IC-img" />
                             </div>
                             <div>
                                 <p className="m-0 lg:text-[21px] md:text-[18px] sm:text-[17px] text-[16px] font-bold mb-4">Organized tasks</p>
@@ -155,7 +154,7 @@ function Home(props) {
                         </div>
                         <div className='flex  gap-4 items-start sm:items-center lg:my-0 mb-3'>
                             <div className='bg-[#68D585]/40 sm:px-5 sm:py-5 px-3 py-3 rounded-[10px]  sm:rounded-[20px] '>
-                                <img src={Path} alt="" />
+                                <img src={Pass} alt="Pass-Icon" />
                             </div>
                             <div>
                                 <p className="m-0 lg:text-[21px] md:text-[18px] sm:text-[17px] text-[16px] font-bold mb-4">Easy feedback sharing</p>
@@ -164,7 +163,7 @@ function Home(props) {
                         </div>
                         <div className='flex  gap-4 items-start sm:items-center lg:my-0 mb-16'>
                             <div className='bg-[#161C2D]/25 sm:px-5 sm:py-5 px-3 py-3 rounded-[10px] '>
-                                <img src={ICT} alt="" />
+                                <img src={ICT} alt="ICT-img" />
                             </div>
                             <div>
                                 <p className="m-0 lg:text-[21px] md:text-[18px] sm:text-[17px] text-[16px] font-bold mb-4">Never miss deadline</p>
